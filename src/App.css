@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-image {
+  background-image: url('https://i2.wp.com/www.designarcade.co/wp-content/uploads/2020/08/Web-design-companies-1.png?resize=780%2C350&ssl=1');
+  background-size: cover;
+  background-position: center center;
+}
