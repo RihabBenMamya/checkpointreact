@@ -9,7 +9,7 @@ export default function Navigation() {
   <>
   <Navbar collapseOnSelect fixed='top' expand="sm" bg="transparent" variant="default">
   <Container>
-  
+  <Navbar.Brand> CheckpointReact </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>
@@ -20,7 +20,7 @@ export default function Navigation() {
   </Navbar.Collapse>
   <Navbar.Collapse className="justify-content-end">
     <Navbar.Text>
-    <Nav.Link href="/form">Login</Nav.Link>
+    <Nav.Link href="/login">Login</Nav.Link>
     </Navbar.Text>
   </Navbar.Collapse>
   </Container>

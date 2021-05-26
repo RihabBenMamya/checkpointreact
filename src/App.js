@@ -6,11 +6,13 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
+       
        <Navbar />
-        
-     
-     <Login/>
-      
+       <header className="App-header bg-image"><h1>First React Checkpoint</h1>
+       <p>Example page header</p>
+       </header>
+       <Login/>
+      <br />
      
       
       <Footer />
